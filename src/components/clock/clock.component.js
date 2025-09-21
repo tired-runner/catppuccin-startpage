@@ -40,7 +40,7 @@ class Clock extends Component {
 
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt 'Roboto', sans-serif;
+            font: 300 18pt 'Roboto', sans-serif;
             color: ${CONFIG.palette.text};
             letter-spacing: .5px;
             margin: 0;

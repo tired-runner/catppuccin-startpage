@@ -188,19 +188,19 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(1) {
-          --flavour: ${CONFIG.palette.green};
+          --flavour: ${CONFIG.palette.mauve};
       }
 
       .categories ul:nth-child(2) {
-          --flavour: ${CONFIG.palette.peach};
+          --flavour: ${CONFIG.palette.mauve};
       }
 
       .categories ul:nth-child(3) {
-          --flavour: ${CONFIG.palette.red};
+          --flavour: ${CONFIG.palette.mauve};
       }
 
       .categories ul:nth-child(4) {
-          --flavour: ${CONFIG.palette.blue};
+          --flavour: ${CONFIG.palette.mauve};
       }
       .categories ul:nth-child(5) {
           --flavour: ${CONFIG.palette.mauve};
@@ -266,7 +266,7 @@ class Tabs extends Component {
           margin: auto;
           border-radius: 5px;
           box-shadow: inset 0 0 0 2px var(--flavour);
-          left: calc(15% - 42.5px);
+          left: calc(22% - 42.5px);
           bottom: 0;
           top: 0;
           background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);
@@ -277,7 +277,7 @@ class Tabs extends Component {
           flex-wrap: wrap;
           word-break: break-all;
           align-items: center;
-          backdrop-filter: blur(3px);
+          backdrop-filter: blur(2px);
       }
 
       .categories .links li:not(:last-child) {
