@@ -22,6 +22,8 @@ const default_configuration = {
   search: {
     engines: {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+      q: ["https://www.qwant.com/?q=", "Qwant"],
+      w: ["https://www.startpage.com/?q=", "Startpage"],
     },
     default: "d",
   },
