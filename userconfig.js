@@ -77,7 +77,7 @@ const default_configuration = {
           links: [
             {
               name: "itch.io",
-              url: "itch.io",
+              url: "https://www.itch.io",
               icon: "device-gamepad",
               icon_color: palette.red,
             },
@@ -138,12 +138,6 @@ const default_configuration = {
               url: "https://en.wikipedia.org",
               icon: "brand-wikipedia",
               icon_color: palette.mauve,
-            },
-            {
-              name: "consumer rights",
-              url: "https://consumerrights.wiki/Main_Page",
-              icon: "gavel",
-              icon_color: palette.blue,
             },
             {
               name: "repair",
