@@ -24,6 +24,7 @@ const default_configuration = {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       q: ["https://www.qwant.com/?q=", "Qwant"],
       w: ["https://www.startpage.com/?q=", "Startpage"],
+      m: ["https://chat.mistral.ai/chat?q=", "Mistral"],
     },
     default: "d",
   },
