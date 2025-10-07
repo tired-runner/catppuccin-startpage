@@ -42,7 +42,7 @@ const default_configuration = {
       background_url: "src/img/banners/banner_19.gif",
       categories: [
         {
-          name: "unsocial media",
+          name: "quick links",
           links: [
             {
               name: "youtube",
@@ -56,6 +56,12 @@ const default_configuration = {
               icon: "brand-reddit",
               icon_color: palette.mauve,
             },
+            {
+              name: "music",
+              url: "https://music.youtube.com/",
+              icon: "music",
+              icon_color: palette.peach,
+            }
           ],
         },
         {
@@ -175,7 +181,7 @@ const default_configuration = {
               name: "speedruns",
               url: "https://www.speedrun.com",
               icon: "wind",
-              icon_color: palette.blue,
+              icon_color: palette.green,
             },
           ],
         },
@@ -212,16 +218,10 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "youtube music",
-              url: "https://music.youtube.com/",
-              icon: "brand-youtube",
-              icon_color: palette.peach,
-            },
-            {
               name: "prime video",
               url: "https://www.amazon.com/gp/video/storefront/",
               icon: "video",
-              icon_color: palette.blue,
+              icon_color: palette.peach,
             },
           ],
         },
