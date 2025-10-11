@@ -24,9 +24,9 @@ const default_configuration = {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       q: ["https://www.qwant.com/?q=", "Qwant"],
       w: ["https://www.startpage.com/?q=", "Startpage"],
-      m: ["https://chat.mistral.ai/chat?q=", "Mistral"],
+      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
     },
-    default: "d",
+    default: "p",
   },
   keybindings: {
     "s": "search-bar",
@@ -35,7 +35,7 @@ const default_configuration = {
   localIcons: true,
   localFonts: true,
   fastlink: "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1",
-  openLastVisitedTab: true,
+  openLastVisitedTab: false,
   tabs: [
     {
       name: "home",
@@ -106,7 +106,7 @@ const default_configuration = {
               name: "lichess",
               url: "https://lichess.org/",
               icon: "chess",
-              icon_color: palette.red,
+              icon_color: palette.green,
             },
           ],
         },
