@@ -97,10 +97,16 @@ const default_configuration = {
               icon_color: palette.mauve,
             },
             {
-              name: "Choice of Games",
+              name: "choice of games",
               url: "https://forum.choiceofgames.com/",
               icon: "book",
               icon_color: palette.peach,
+            },
+            {
+              name: "lichess",
+              url: "https://lichess.org/",
+              icon: "chess",
+              icon_color: palette.red,
             },
           ],
         },
@@ -172,7 +178,7 @@ const default_configuration = {
               icon_color: palette.mauve,
             },
             {
-              name: "BG3",
+              name: "bg3",
               url: "https://bg3.wiki/",
               icon: "sword",
               icon_color: palette.blue,
