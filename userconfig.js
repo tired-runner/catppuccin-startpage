@@ -58,7 +58,7 @@ const default_configuration = {
             },
             {
               name: "music",
-              url: "https://music.youtube.com/",
+              url: "https://bandcamp.com/discover",
               icon: "music",
               icon_color: palette.peach,
             }
