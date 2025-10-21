@@ -58,7 +58,7 @@ const default_configuration = {
             },
             {
               name: "music",
-              url: "https://bandcamp.com/discover",
+              url: "https://www.deezer.com/us/",
               icon: "music",
               icon_color: palette.peach,
             }
