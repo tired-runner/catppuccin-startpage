@@ -58,7 +58,7 @@ const default_configuration = {
             },
             {
               name: "music",
-              url: "https://www.deezer.com/us/",
+              url: "https://music.youtube.com/",
               icon: "music",
               icon_color: palette.peach,
             }
