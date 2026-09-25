@@ -69,7 +69,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child)::after {
-          content: counter(tabs, cjk-ideographic);
+          content: counter(tabs);
           counter-increment: tabs;
           display: flex;
           width: 100%;
@@ -83,7 +83,7 @@ class Statusbar extends Component {
       #tabs ul li:not(:last-child) {
           width: 35px;
           text-align: center;
-          font: 700 13px 'Yu Gothic', serif;
+          font: 700 13px roboto;
           color: ${CONFIG.palette.text};
           padding: 6px 0;
           transition: all .1s;
