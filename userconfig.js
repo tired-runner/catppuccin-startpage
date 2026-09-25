@@ -178,8 +178,8 @@ const default_configuration = {
               icon_color: palette.mauve,
             },
             {
-              name: "bg3",
-              url: "https://bg3.wiki/",
+              name: "ffxiv",
+              url: "https://ffxiv.consolegameswiki.com/wiki/FF14_Wiki",
               icon: "sword",
               icon_color: palette.blue,
             },

@@ -209,7 +209,7 @@ class Search extends Component {
     return `
         <div id="search">
           <div>
-            <input type="text" spellcheck="false" placeholder="search">
+            <input type="text" spellcheck="false" placeholder="search" name="search">
             <button class="close"><i class="material-icons">&#xE5CD;</i></button>
             <button class="clear-history" title="Clear search history">×</button>
             <ul class="search-engines"></ul>
